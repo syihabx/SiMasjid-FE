@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
-import Button from '../ui/Button'
+import Button from '../UI/Button'
 import { logout } from '../../store/authSlice'
 import ProfileDropdown from './ProfileDropdown'
 import Modal from '../Modal'
