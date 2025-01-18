@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { register } from '../../store/authSlice'
 import { toast } from 'react-toastify'
-import Button from '../ui/Button'
+import Button from '../UI/Button'
 
 function RegisterForm({ onSuccess }) {
   const [formData, setFormData] = useState({

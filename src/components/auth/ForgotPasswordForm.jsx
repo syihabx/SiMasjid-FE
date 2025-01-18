@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { toast } from 'react-toastify'
 import { forgotPassword } from '../../store/authSlice'
-import Button from '../ui/Button'
+import Button from '../UI/Button'
 
 function ForgotPasswordForm() {
   const [email, setEmail] = useState('')

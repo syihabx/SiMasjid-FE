@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate, useParams } from 'react-router-dom'
 import { resetPassword } from '../../store/authSlice'
 import { toast } from 'react-toastify'
-import Button from '../ui/Button'
+import Button from '../UI/Button'
 
 function ResetPasswordForm() {
   const [formData, setFormData] = useState({

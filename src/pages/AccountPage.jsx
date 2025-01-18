@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useSelector } from 'react-redux'
-import Button from '../components/ui/Button'
+import Button from '../components/UI/Button'
 
 export default function AccountPage() {
   const { user } = useSelector(state => state.auth)

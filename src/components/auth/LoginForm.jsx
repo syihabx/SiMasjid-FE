@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { login } from '../../store/authSlice'
 import { toast } from 'react-toastify'
-import Button from '../ui/Button'
+import Button from '../UI/Button'
 
 function LoginForm({ onSuccess }) {
   const [formData, setFormData] = useState({
