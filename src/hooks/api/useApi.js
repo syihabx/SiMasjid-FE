@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5127/api';
+const baseUrl = import.meta.env.VITE_API_URL || 'https://backend.simasjid.com/api';
 
 export const useLoading = () => {
   const [isLoading, setIsLoading] = useState(false);
